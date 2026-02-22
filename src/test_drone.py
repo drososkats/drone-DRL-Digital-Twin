@@ -10,7 +10,7 @@ def test_ai():
     env = DroneEnv()
     
     # load the saved model (ppo_drone_navigation.zip)
-    model = PPO.load("ppo_drone_navigation", env=env)
+    model = PPO.load("models/ppo_drone_navigation", env=env)
     
     print("--- Starting Test Flights (5 episodes) ---")
     
@@ -39,4 +39,5 @@ def test_ai():
     env.sim.stopSimulation()
 
 if __name__ == "__main__":
+
     test_ai()
