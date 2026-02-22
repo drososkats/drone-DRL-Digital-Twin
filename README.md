@@ -21,10 +21,11 @@ This project implements a **Digital Twin** for an autonomous drone (UAV) using *
 - **Success Criteria:** The agent successfully identifies and reaches the target by navigating through/around urban obstacles.
 
 ## How to Run
-1. Launch **CoppeliaSim** and open `scene/urban_canyon_scene.ttt`.
+1. Launch **CoppeliaSim** and open `scene/drone_scene.ttt`.
 2. Ensure the **ZMQ Remote API** is active.
 3. Install dependencies: `pip install -r requirements.txt`.
 4. Run the test script:
    ```bash
    cd src
+
    python test_drone.py
